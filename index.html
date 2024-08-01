@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/101cdeab15.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+
+</head>
+<body class="flex justify-center items-center min-h-lvh ">
+    
+
+<div class="">
+    <h1 class="text-center">TODO lIST</h1>
+    <div class="mt-6">
+        <input class="input py-3 px-7 border focus-none focus:outline-none " type="text" placeholder="Enter your task">
+        <button class="button py-3 px-7 bg-[#262626] text-white">add</button>
+    </div>
+   
+
+
+<div class="overflow-x-auto mt-8 border">
+    <table class="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
+      <thead class="ltr:text-left rtl:text-right">
+        <tr class="capitalize">
+          <th class="w-8 px-4 py-2 font-medium text-gray-900">no</th>
+          <th class=" px-4 py-2 font-medium text-gray-900">task</th>
+          <th class=" px-4 py-2 font-medium text-gray-900">acton</th>
+       
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-200 showdiv">
+        
+    
+    
+      </tbody>
+    
+    </table>
+  </div>
+
+</div>
+ 
+
+
+<script src="main.js"></script>
+</body>
+</html>
